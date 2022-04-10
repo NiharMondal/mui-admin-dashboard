@@ -24,7 +24,7 @@ const DashboardLayout = () => {
         component="main"
         sx={{
           flexGrow: 1,
-          p: 2,
+          p: {xs: 2, md: 4},
           width: { sm: `calc(100% - ${drawerWidth}px)` },
         }}
       >

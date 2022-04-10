@@ -23,6 +23,7 @@ const SearchbarStyle = styled(Toolbar)(({ theme }) => ({
   position: "absolute",
   alignItems: "center",
   backdropFilter: "blur(6px)",
+  boxShadow: "0px 8px 16px 0px rgba(0,0,0,0.1)",
   WebkitBackdropFilter: "blur(6px)", // Fix on Mobile
   padding: theme.spacing(0, 3),
   backgroundColor: `${alpha(theme.palette.background.default, 0.72)}`,

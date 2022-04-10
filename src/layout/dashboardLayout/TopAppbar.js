@@ -4,12 +4,14 @@ import {
   IconButton,
   Box,
   Stack,
-  Typography,
   Toolbar,
 } from "@mui/material";
 import { alpha, styled } from "@mui/material/styles";
 import { HiMenuAlt1 } from "react-icons/hi";
 import Searchbar from "./Searchbar";
+import Language from "./Language";
+import Notification from "./Notification";
+import Account from "./Account";
 const drawerWidth = 270;
 
 
@@ -45,9 +47,9 @@ const TopAppbar = ({ handleDrawerToggle }) => {
         <Searchbar />
         <Box sx={{ flexGrow: 1 }} />
         <Stack direction="row" spacing={2} alignItems="center">
-          <Typography variant="body2">hi</Typography>
-          <Typography variant="body2">hi</Typography>
-          <Typography variant="body2">hi</Typography>
+          <Language />
+          <Notification />
+          <Account />
         </Stack>
       </Toolbar>
     </RootStyle>

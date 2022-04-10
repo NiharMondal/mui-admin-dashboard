@@ -1,12 +1,11 @@
-
-
 import { styled } from "@mui/material/styles";
 import { NavLink } from "react-router-dom";
 import React from "react";
-import { List, ListItemIcon, ListItemText } from "@mui/material";
+import { List, ListItemText } from "@mui/material";
 const ListItemStyle = styled(NavLink)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
+  justifyContent:'center',
   padding: theme.spacing(1, 2, 1, 4),
   textDecoration: "none",
   position: "relative",
@@ -32,13 +31,19 @@ const ListItemStyle = styled(NavLink)(({ theme }) => ({
     },
   },
 }));
+const ListItemIconStyle = styled('div')(() => ({
+  height: 20,
+  width: 20,
+  margin: '0px 8px',
 
+  
+}))
 const NavSection = ({ navConfig }) => {
   return (
     <List disablePadding>
       {navConfig.map((item, index) => (
         <ListItemStyle to={item.path} key={index}>
-          <ListItemIcon>{item.icon}</ListItemIcon>
+          <ListItemIconStyle >{item.icon}</ListItemIconStyle>
           <ListItemText disableTypography primary={item.title} />
         </ListItemStyle>
       ))}
