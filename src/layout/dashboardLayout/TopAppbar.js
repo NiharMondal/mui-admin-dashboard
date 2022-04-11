@@ -17,8 +17,8 @@ const drawerWidth = 270;
 
 const RootStyle = styled(AppBar)(({ theme }) => ({
   boxShadow: "none",
-  backdropFilter: "blur(6px)",
-  WebkitBackdropFilter: "blur(6px)", // Fix on Mobile
+  backdropFilter: "blur(3px)",
+  WebkitBackdropFilter: "blur(3px)", // Fix on Mobile
   backgroundColor: alpha(theme.palette.background.default, 0.72),
   [theme.breakpoints.up("lg")]: {
     width: `calc(100% - ${drawerWidth + 1}px)`,

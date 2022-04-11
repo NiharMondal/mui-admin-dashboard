@@ -1,12 +1,20 @@
 import React from 'react';
-import ComponentHeader from '../ComponentHeader';
 import { CustomBox } from '../CustomBox';
-
+import ReactApexChart from "react-apexcharts";
+import { chartSeries, chartOptions } from '../charts/comboCharts';
+import { CardHeader } from '@mui/material';
 
 const WebsiteVisits = () => {
   return (
     <CustomBox>
-      <ComponentHeader title="WebSite Visits" variant="subtitle1"/>
+      <CardHeader title="Website Visits" subheader="(+43%) than last year" />
+      
+      <ReactApexChart
+        type="line"
+        series={chartSeries}
+        options={chartOptions}
+        height="350"
+      />
     </CustomBox>
   );
 };
