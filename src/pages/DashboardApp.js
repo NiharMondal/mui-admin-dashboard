@@ -4,9 +4,9 @@ import ComponentHeader from "../components/ComponentHeader";
 import ConversionRates from "../components/Dashboard/ConversionRates";
 import CurrentSubject from "../components/Dashboard/CurrentSubject";
 import GridItem from "../components/Dashboard/GridItem";
-import NewsUpdate from "../components/Dashboard/NewsUpdate";
 import VisitsSection from "../components/Dashboard/VisitsSection";
-
+import OrderTimeLine from "../components/Dashboard/OrderTimeLine";
+import Task from "../components/Dashboard/Task";
 const DashboardApp = () => {
   return (
     <Box>
@@ -18,15 +18,15 @@ const DashboardApp = () => {
           <ConversionRates />
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <CurrentSubject/>
+          <CurrentSubject />
         </Grid>
       </Grid>
       <Grid container spacing={3}>
-        <Grid item xs={12} sm={6} md={8}>
-          <NewsUpdate />
+        <Grid item xs={12} sm={7} md={4}>
+          <OrderTimeLine />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <CurrentSubject/>
+        <Grid item xs={12} sm={5} md={8}>
+          <Task />
         </Grid>
       </Grid>
     </Box>

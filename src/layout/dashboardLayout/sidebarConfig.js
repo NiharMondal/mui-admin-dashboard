@@ -1,8 +1,9 @@
 import {RiDashboardFill} from 'react-icons/ri'
-import { ImUsers,ImBug } from 'react-icons/im'
+import { ImUsers } from 'react-icons/im'
 import { FaShoppingBag,FaUserPlus } from 'react-icons/fa'
-import { BsBookmarkStarFill } from 'react-icons/bs'
-import {GiNotebook} from 'react-icons/gi'
+import { GiNotebook } from 'react-icons/gi'
+import { GrSecure } from 'react-icons/gr'
+import {MdReportProblem} from 'react-icons/md'
 const sidebarConfig = [
   {
     title: "dashboard",
@@ -27,7 +28,7 @@ const sidebarConfig = [
   {
     title: "login",
     path: "dashboard/login",
-    icon: <BsBookmarkStarFill />,
+    icon: <GrSecure />,
   },
   {
     title: "register",
@@ -37,7 +38,7 @@ const sidebarConfig = [
   {
     title: "not found",
     path: "dashboard/not-found",
-    icon: <ImBug />,
+    icon: <MdReportProblem />,
   },
 ];
 export default sidebarConfig;
