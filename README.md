@@ -17,13 +17,13 @@
 
 ## Page demo
 
-- [Dashboard](https://minimal-kit-react.vercel.app/dashboard/app)
-- [Users](https://minimal-kit-react.vercel.app/dashboard/user)
-- [Product](https://minimal-kit-react.vercel.app/dashboard/products)
-- [Blog](https://minimal-kit-react.vercel.app/dashboard/blog)
-- [Login](https://minimal-kit-react.vercel.app/login)
-- [Register](https://minimal-kit-react.vercel.app/register)
-- [Not Found](https://minimal-kit-react.vercel.app/404)
+- [Dashboard](https://mui-react-dashboard.netlify.app/dashboard/app)
+- [Users](https://mui-react-dashboard.netlify.app/dashboard/user)
+- [Product](https://mui-react-dashboard.netlify.app/dashboard/products)
+- [Blog](https://mui-react-dashboard.netlify.app/dashboard/blog)
+- [Login](https://mui-react-dashboard.netlify.app/dashboard/login)
+- [Register](https://mui-react-dashboard.netlify.app/dashboard/register)
+- [Not Found](https://mui-react-dashboard.netlify.app/dashboard/not-found)
 
 ## Getting started
 
