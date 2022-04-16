@@ -21,9 +21,9 @@
 - [Users](https://mui-react-dashboard.netlify.app/dashboard/user)
 - [Product](https://mui-react-dashboard.netlify.app/dashboard/products)
 - [Blog](https://mui-react-dashboard.netlify.app/dashboard/blog)
-- [Login](https://mui-react-dashboard.netlify.app/dashboard/login)
-- [Register](https://mui-react-dashboard.netlify.app/dashboard/register)
-- [Not Found](https://mui-react-dashboard.netlify.app/dashboard/not-found)
+- [Login](https://mui-react-dashboard.netlify.app/login)
+- [Register](https://mui-react-dashboard.netlify.app/register)
+- [Not Found](https://mui-react-dashboard.netlify.app/not-found)
 
 ## Getting started
 
