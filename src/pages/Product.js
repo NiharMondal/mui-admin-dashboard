@@ -2,8 +2,8 @@ import { Box } from '@mui/material';
 import React from 'react';
 import ComponentHeader from '../components/ComponentHeader';
 
-import ProductList from '../components/Dashboard/section/product/ProductList';
-import ProductWidget from '../components/Dashboard/section/product/ProductWidget';
+import ProductList from '../components/section/@dashboard/product/ProductList';
+import ProductWidget from '../components/section/@dashboard/product/ProductWidget';
 import products from '../mock/products';
 const Product = () => {
   return (

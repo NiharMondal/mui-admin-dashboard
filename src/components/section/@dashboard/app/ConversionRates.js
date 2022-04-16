@@ -1,8 +1,8 @@
 import { CardHeader } from '@mui/material';
 import React from 'react';
 import ReactApexChart from 'react-apexcharts';
-import {conversionOptions,conversionSeries} from '../charts/conversionChart'
-import { CustomBox } from '../CustomBox';
+import {conversionOptions,conversionSeries} from '../../../charts/conversionChart'
+import {CustomBox} from '../../../CustomBox'
 const ConversionRates = () => {
   return (
     <CustomBox sx={{ mt: 4 }}>

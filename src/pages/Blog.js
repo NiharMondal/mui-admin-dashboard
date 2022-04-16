@@ -9,9 +9,9 @@ import {
 import React from "react";
 import ComponentHeader from "../components/ComponentHeader";
 import { BsSearch } from "react-icons/bs";
-import BlogPostSorts from "../components/Dashboard/section/blog/BlogPostSorts";
+import BlogPostSorts from '../components/section/@dashboard/blog/BlogPostSorts'
 import blogArray from "../mock/blog";
-import BlogCard from "../components/Dashboard/section/blog/BlogCard";
+import BlogCard from "../components/section/@dashboard/blog/BlogCard";
 
 const sortOptions = [
   { value: "latest", label: "Latest" },

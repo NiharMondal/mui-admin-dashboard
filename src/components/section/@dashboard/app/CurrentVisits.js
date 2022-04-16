@@ -1,8 +1,8 @@
 import React from "react";
 import ReactApexChart from "react-apexcharts";
 import { Box, CardHeader } from "@mui/material";
-import { CustomBox } from "../CustomBox";
-import { pieChartOptions, pieChartSeries } from "../charts/pieCharts";
+import { CustomBox } from "../../../CustomBox";
+import { pieChartOptions, pieChartSeries } from "../../../charts/pieCharts";
 
 
 const CurrentVisits = () => {

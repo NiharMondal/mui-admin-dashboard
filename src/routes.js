@@ -12,20 +12,20 @@ import NotFound from "./pages/NotFound";
 export const Router = () => {
   return useRoutes([
     {
-      path: "/",
+      path: "/dashboard",
       element: <DashboardLayout />,
       children: [
-        { path: "/", element: <Navigate to="dashboard/app" /> },
-        { path: "dashboard/app", element: <DashboardApp /> },
-        { path: "dashboard/user", element: <User /> },
-        { path: "dashboard/products", element: <Product /> },
-        { path: "dashboard/blog", element: <Blog /> },
+        { path: "app", element: <DashboardApp /> },
+        { path: "user", element: <User /> },
+        { path: "products", element: <Product /> },
+        { path: "blog", element: <Blog /> },
       ],
     },
     {
-      path: "/dashboard",
+      path: "/",
       element: <LoginLayout />,
       children: [
+        { path: "/", element: <Navigate to="/dashboard/app" /> },
         { path: "login", element: <Login /> },
         { path: "register", element: <Register /> },
       ],

@@ -9,7 +9,7 @@ const ProductImgStyle = styled("img")({
   position: "absolute",
 });
 const ProductList = ({ products }) => {
-  console.log(products);
+
   return (
     <Grid container spacing={3}>
       {products.map((product, index) => (
@@ -45,7 +45,7 @@ const ProductList = ({ products }) => {
                 justifyContent="space-between"
               >
                 <Link href='#' sx={{cursor: "pointer"}}>
-                  <Typography variant="subtitle2" noWrap>
+                  <Typography variant="subtitle2" >
                     {product.name}
                   </Typography>
                 </Link>

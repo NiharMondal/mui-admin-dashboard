@@ -1,8 +1,8 @@
 import { Box, CardHeader } from "@mui/material";
 import React from "react";
 import ReactApexChart from "react-apexcharts";
-import { radarOptions, radarSeries } from "../charts/radarChart";
-import { CustomBox } from "../CustomBox";
+import { radarOptions, radarSeries } from '../../../charts/radarChart'
+import { CustomBox } from '../../../CustomBox'
 
 const CurrentSubject = () => {
   return (

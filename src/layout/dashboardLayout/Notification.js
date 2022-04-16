@@ -6,7 +6,7 @@ import {
 } from "@mui/material";
 import React, { useState } from "react";
 import { MdNotificationsActive } from 'react-icons/md'
-import NotificationEl from "../../utils/NotificationEl";
+import NotificationEl from './NotificationEl'
 
 
 const Notification = () => {

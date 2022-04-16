@@ -1,7 +1,7 @@
 import React from 'react';
-import { CustomBox } from '../CustomBox';
+import { CustomBox } from '../../../CustomBox';
 import ReactApexChart from "react-apexcharts";
-import { chartSeries, chartOptions } from '../charts/comboCharts';
+import { chartSeries, chartOptions } from '../../../charts/comboCharts'
 import { CardHeader } from '@mui/material';
 
 const WebsiteVisits = () => {

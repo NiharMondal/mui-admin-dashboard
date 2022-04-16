@@ -38,7 +38,7 @@ const NotificationEl = () => {
             key={index}
           >
             <ListItemIconStyle>
-              <ListItemIcon sx={{ fontSize: "35px" }}>{item.icon}</ListItemIcon>
+              <ListItemIcon sx={{ fontSize: "35px", color:"purple" }}>{item.icon}</ListItemIcon>
               <div>
                 <TypographyStyle variant="subtitle2">
                   {item.head}
@@ -59,7 +59,7 @@ const NotificationEl = () => {
         {olderData.map((item, index) => (
           <ListItemButton sx={{ marginY: "4px", borderRadius:"8px" }} key={index}>
             <ListItemIconStyle>
-              <ListItemIcon sx={{ fontSize: "35px" }}>{item.icon}</ListItemIcon>
+              <ListItemIcon sx={{ fontSize: "35px",color:"skyblue" }}>{item.icon}</ListItemIcon>
               <div>
                 <TypographyStyle variant="h6">
                   {item.head}

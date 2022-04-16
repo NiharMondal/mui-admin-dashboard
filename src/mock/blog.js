@@ -1,6 +1,6 @@
 import { faker } from "@faker-js/faker";
 // utils
-import { mockImgCover } from "../utils/mockImages";
+import { mockImgCover, mockImgAvatar } from "../utils/mockImages";
 
 // ----------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ const blogArray = [...Array(23)].map((_, index) => ({
   favorite: faker.datatype.number(),
   author: {
     name: faker.name.findName(),
-    avatarUrl: `/static/mock-images/avatars/avatar_${index + 1}.jpg`,
+    avatarUrl: mockImgAvatar(index + 1),
   },
 }));
 

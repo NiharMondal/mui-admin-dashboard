@@ -1,21 +1,27 @@
 import {
-  Toolbar,
   Divider,
   Box,
   Drawer,
   Typography,
+  Toolbar,
 } from "@mui/material";
 
 import React from "react";
 import sidebarConfig from "./sidebarConfig";
 import NavSection from "../../components/Dashboard/NavSection";
+import Logo from "../../components/Logo";
 
 const drawerWidth = 270;
 
 
 const drawer = (
   <div>
-    <Toolbar />
+    <Toolbar sx={{}}>
+      <Logo
+        logoIllustration="/mock-images/logo.svg"
+        sx={{ paddingLeft: "20px" }}
+      />
+    </Toolbar>
     <Divider />
     <Box
       sx={{
@@ -25,8 +31,8 @@ const drawer = (
         height: "80px",
         padding: "18 10px",
         display: "flex",
-        alignItems: 'center',
-        justifyContent: 'center',
+        alignItems: "center",
+        justifyContent: "center",
         borderRadius: "6px",
       }}
     >

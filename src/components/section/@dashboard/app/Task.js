@@ -8,7 +8,7 @@ import {
   FormControlLabel,
   Stack,
 } from "@mui/material";
-import { CustomBox } from "../CustomBox";
+import { CustomBox } from "../../../CustomBox";
 
 // ----------------------------------------------------------------------
 

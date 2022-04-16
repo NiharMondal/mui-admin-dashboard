@@ -1,19 +1,15 @@
 import { Outlet } from "react-router-dom";
 // material
 import { styled } from "@mui/material/styles";
+import { Box } from "@mui/material";
 // components
 
 // ----------------------------------------------------------------------
 
-const HeaderStyle = styled("header")(({ theme }) => ({
-  top: 0,
-  left: 0,
-  lineHeight: 0,
-  width: "100%",
-  position: "absolute",
-  padding: theme.spacing(3, 3, 0),
+const AuthStyle = styled(Box)(({ theme }) => ({
+  padding: theme.spacing(2),
   [theme.breakpoints.up("sm")]: {
-    padding: theme.spacing(5, 5, 0),
+    padding: theme.spacing(4),
   },
 }));
 
@@ -21,10 +17,9 @@ const HeaderStyle = styled("header")(({ theme }) => ({
 
 const LoginLayout = () => {
   return (
-    <>
-      <HeaderStyle>Logo</HeaderStyle>
+    <AuthStyle>
       <Outlet />
-    </>
+    </AuthStyle>
   );
 };
 export default LoginLayout;

@@ -1,11 +1,11 @@
 import { Grid,Box, ListItemIcon, Typography } from '@mui/material';
 import React from 'react';
-import { dashboradData } from '../../utils/dashboardData';
+import {dashboradData} from './dashboardData'
 
 const GridItem = () => {
   
   return (
-    <Grid container spacing={4}>
+    <Grid container spacing={4} sx={{mt: 2}}>
       {dashboradData.map((item, index) => (
         <Grid item xs={12} sm={6} md={3} key={index}>
           <Box

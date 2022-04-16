@@ -7,37 +7,37 @@ import {MdReportProblem} from 'react-icons/md'
 const sidebarConfig = [
   {
     title: "dashboard",
-    path: "dashboard/app",
+    path: "app",
     icon: <RiDashboardFill />,
   },
   {
     title: "user",
-    path: "dashboard/user",
+    path: "user",
     icon: <ImUsers />,
   },
   {
     title: "product",
-    path: "dashboard/products",
+    path: "products",
     icon: <FaShoppingBag />,
   },
   {
     title: "blog",
-    path: "dashboard/blog",
+    path: "blog",
     icon: <GiNotebook />,
   },
   {
     title: "login",
-    path: "dashboard/login",
+    path: "/login",
     icon: <GrSecure />,
   },
   {
     title: "register",
-    path: "dashboard/register",
+    path: "/register",
     icon: <FaUserPlus />,
   },
   {
     title: "not found",
-    path: "dashboard/not-found",
+    path: "/not-found",
     icon: <MdReportProblem />,
   },
 ];

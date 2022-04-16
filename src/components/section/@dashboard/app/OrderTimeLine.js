@@ -1,6 +1,6 @@
 import { Box, CardHeader, Stack, Typography } from '@mui/material';
 import React from 'react';
-import { CustomBox } from '../CustomBox';
+import { CustomBox } from '../../../CustomBox';
 import { faker } from '@faker-js/faker';
 import { formatDistance } from "date-fns";
 const TIMELINES = [
