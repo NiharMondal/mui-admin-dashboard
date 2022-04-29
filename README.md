@@ -1,4 +1,4 @@
-## Minimal [(I tried to copy Minumal Free version)](https://minimal-kit-react.vercel.app/)
+## Minimal [(I tried to copy Minumal Free version)](https://mui-react-dashboard.netlify.app/dashboard/app)
 
 
 
