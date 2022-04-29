@@ -1,6 +1,6 @@
 # I tried to copy Minumal Free version 
 
-##  [(Click here to visit)](https://mui-react-dashboard.netlify.app/dashboard/app)
+##  [(Click here to visit Minumal)](https://mui-react-dashboard.netlify.app/dashboard/app)
 
 
 
@@ -8,14 +8,7 @@
 
 ![preview](public/preview.png)
 
-| [Minimal Free](https://minimal-kit-react.vercel.app/) | [Minimal](https://material-ui.com/store/items/minimal-dashboard/) |
-| ----------------------------------------------------- | :---------------------------------------------------------------- |
-| **7** Demo pages                                      | **42+** demo pages                                                |
-| -                                                     | ✓ Multi-language                                                  |
-| -                                                     | ✓ Dark/Light Mode 🌓                                              |
-| -                                                     | ✓ [More components](https://minimals.cc/components)               |
-| -                                                     | ✓ TypeScript version                                              |
-| -                                                     | ✓ Design files (Figma & Sketch)                                   |
+
 
 ## Page demo
 
