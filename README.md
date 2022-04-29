@@ -1,4 +1,6 @@
-## Minimal [(I tried to copy Minumal Free version)](https://mui-react-dashboard.netlify.app/dashboard/app)
+# I tried to copy Minumal Free version 
+
+##  [(Click here to visit)](https://mui-react-dashboard.netlify.app/dashboard/app)
 
 
 
@@ -31,8 +33,5 @@
 - Install dependencies: `npm install` or `yarn install`
 - Start the server: `npm run start` or `yarn start`
 
-## License
-
-Distributed under the MIT License. See [LICENSE](https://github.com/minimal-ui-kit/minimal.free/blob/main/LICENSE.md) for more information.
 
 
