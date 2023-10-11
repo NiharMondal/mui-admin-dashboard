@@ -23,7 +23,7 @@ const Notification = () => {
       <Box sx={{ display: "flex", alignItems: "center", textAlign: "center" }}>
         <IconButton
           onClick={handleClick}
-          size="small"
+          size="large"
           aria-controls={open ? "account-menu" : undefined}
           aria-haspopup="true"
           aria-expanded={open ? "true" : undefined}

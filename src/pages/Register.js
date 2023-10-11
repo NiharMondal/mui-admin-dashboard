@@ -35,6 +35,7 @@ const Register = () => {
             display: { xs: "none", md: "block" },
             px: 2,
             py: 5,
+            mt:4
           }}
         >
           <Typography variant="h4">

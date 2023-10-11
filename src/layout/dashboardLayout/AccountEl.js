@@ -18,8 +18,8 @@ const AccountEl = () => {
   return (
     <Box sx={{ width: 300, p: 2 }}>
       <Header>
-        <Typography variant="h6">Jaydon Frankie</Typography>
-        <Typography variant="subtitle1">jaydon@gmail.com</Typography>
+        <Typography variant="h6">Nihar Mondal</Typography>
+        <Typography variant="subtitle1">test1234@gmail.com</Typography>
       </Header>
       <Divider />
       <Box sx={{ pt: 1 }}>
