@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { GiHorseHead } from "react-icons/gi";
 import { Box, IconButton, Menu } from "@mui/material";
 import AccountEl from "./AccountEl";
 const Account = () => {
